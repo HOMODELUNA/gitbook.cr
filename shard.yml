@@ -1,0 +1,19 @@
+name: gitbook
+version: 0.1.0
+
+authors:
+  - homodeluna <1402692684@qq.com>
+
+targets:
+  gitbook:
+    main: src/gitbook.cr
+
+crystal: 1.5.0
+
+license: MIT
+
+
+dependencies:
+  markd:
+    github: icyleaf/markd
+    version: ~> 0.5
